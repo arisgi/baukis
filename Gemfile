@@ -15,6 +15,8 @@ gem 'therubyracer',               platforms: :ruby
 gem 'bcrypt',       '~> 3.1.7'
 gem 'nokogiri',     '~> 1.6.1'
 gem 'rails-i18n',   '~> 4.0.1'
+gem 'haml-rails'
+gem 'erb2haml'
 
 group :test do
   gem 'rspec-rails',           '~> 3.0.0.beta2'
