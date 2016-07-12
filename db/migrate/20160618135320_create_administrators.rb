@@ -10,5 +10,5 @@ class CreateAdministrators < ActiveRecord::Migration
     end
 
     add_index :administrators, :email_for_index, unique: true
-  e#   Mayor.create(name: 'Emanuel', city: cities.first)nd
+  end
 end
